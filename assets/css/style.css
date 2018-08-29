@@ -1,0 +1,96 @@
+html {
+    background-image: url("../images/ironman.jpg");
+}
+
+header {
+    background-color: #771414;
+    color: #beba46;
+    align-content: center;
+
+}
+
+.navbar-brand {
+    float: left;
+   margin: 0 auto;
+}
+
+.instructions {
+    width: 600px;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    float: left;
+    background-color: #771414;
+    color: #beba46;
+}
+
+.hello {
+    color: #8bd3fb;
+}
+
+.random-number {
+    width: 900px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-image: url("../images/thanos.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 350px;
+    float: left;
+    clear: both;
+}
+
+.wins-losses {
+    float: left;
+    width: 280px;
+    height: 361px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #771414;
+    color: #beba46;
+    
+}
+
+.number {
+    position: relative;
+    left: 195px;
+    height: 100px;
+    width: 100px;
+    font-size: 100px
+}
+
+.stones {
+    float:  left;
+    background-color: #771414;
+    padding: 20px;
+    margin-top: 20px;
+    width: 460px;
+    height: 361px;
+}
+
+.btn {
+    border-color: #8bd3fb;
+    border-width: 3px;
+    padding: 0;
+    margin: 5px;
+}
+
+.tony {
+        width: 440px;
+        height: 350px;
+        padding: 20px;
+        margin: 20px;
+        background-image: url("../images/iron man.jpg");
+        background-repeat: no-repeat;
+        background-size: 440px 350px;
+        float: left;
+}
+
+.user-number {
+    position: relative;
+    left: 260px;
+    top: 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 100px
+}
+        
