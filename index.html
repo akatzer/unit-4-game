@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -30,7 +30,8 @@
             your total score.
         </p>
         <p>You beat Thanos by matching your total score to his number and you lose the game if your total score goes over
-            his.</p>
+            his.
+        </p>
         <p>The value of each stone is hidden from you until you click on it.</p>
     </div>
 
@@ -63,19 +64,19 @@
 
     <div class="random-number">
         <div class="number">
-            <p>25</p>
+            <p id="thanos-num"></p>
         </div>
 
     </div>
 
     <div class="tony">
         <div class="user-number">
-            <p>50</p>
+            <p id="tony-num"></p>
         </div>
     </div>
 
 
-
+    <script src="assets/javascript/game.js"></script>
 
 
 
