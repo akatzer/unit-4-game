@@ -56,7 +56,7 @@ $(document).ready(function () {
         if (tonyNum === thanosNum) {
             alert("YOU WIN!");
             wins++;
-            $(".losses").text(wins)
+            $(".wins").text(wins)
             resetGame();
         }
         else if (tonyNum > thanosNum) {
