@@ -54,13 +54,13 @@ $(document).ready(function () {
 
     function logic() {
         if (tonyNum === thanosNum) {
-            alert("YOU WIN!");
+            alert("YOU HAVE SAVED THE UNIVERSE!");
             wins++;
             $(".wins").text(wins)
             resetGame();
         }
         else if (tonyNum > thanosNum) {
-            alert("YOU LOSE!");
+            alert("THANOS WINS!");
             losses++;
             $(".losses").text(losses);
             resetGame();

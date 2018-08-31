@@ -1,5 +1,7 @@
 html {
     background-image: url("../images/ironman.jpg");
+    background-size: 100%;
+   
 }
 
 header {
