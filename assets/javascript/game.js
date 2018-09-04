@@ -1,12 +1,12 @@
 $(document).ready(function () {
+
+    // setting the initial values
     var wins = 0;
     var losses = 0;
     var tonyNum = 0;
     var thanosNum = 0;
 
-
-    // Setting your values for everything
-
+    // setting up all the random values and resetting the user number to 0
     function resetGame() {
         tonyNum = 0
         $("#tony-num").text(tonyNum);
@@ -20,7 +20,7 @@ $(document).ready(function () {
         timeNum = Math.floor((Math.random() * 12) + 1);
     }
 
-
+    // All of the on click actions
     $(".mind").on("click", function () {
         tonyNum += mindNum;
         $("#tony-num").text(tonyNum);
@@ -52,6 +52,7 @@ $(document).ready(function () {
         logic();
     })
 
+    // this is what happens when the user number either equals the random
     function logic() {
         if (tonyNum === thanosNum) {
             alert("YOU HAVE SAVED THE UNIVERSE!");
@@ -67,14 +68,7 @@ $(document).ready(function () {
         }
     }
 
-
-
-
-
-
-
-
-
+    // starts the game on page load.
     resetGame();
 
 });
